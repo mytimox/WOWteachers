@@ -8,20 +8,27 @@
             color: #101311;
         }
         span{
-            background-color: #737c76
+            background-color: #c8d1cb
         }
 }
 .column {
-    float: left;
-    width: 50%;
+    float: right;
+    width: 45%;
+    padding: 30px;
     /* padding: 10px; */
     /* height: 300px; Should be removed. Only for demonstration */
 }
 .column-img img {
-    float: left;
-    width: 50%;
+    vertical-align: middle;
+    /* float: left; */
+    /* width: 20%;  */
     /* padding: 10px; */
     /* height: 300px; Should be removed. Only for demonstration */
+}
+.column-img{
+    width: 45%;
+    float: left;
+    padding: 30px;
 }
 
 /* Clear floats after the columns */
