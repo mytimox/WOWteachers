@@ -1,0 +1,48 @@
+/* Create three equal columns that floats next to each other */
+@media screen{
+    BODY {
+        font-family: 'Oswald', sans-serif;
+        
+        }
+        H1,H2,{
+            color: #101311;
+        }
+        span{
+            background-color: #737c76
+        }
+}
+.column {
+    float: left;
+    width: 50%;
+    /* padding: 10px; */
+    /* height: 300px; Should be removed. Only for demonstration */
+}
+.column-img img {
+    float: left;
+    width: 50%;
+    /* padding: 10px; */
+    /* height: 300px; Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+@media print {    
+    BODY {
+        font-family: 'Oswald', sans-serif;
+        
+        }
+        H1,H2,P{
+            color: #101311;
+        }
+    }
+}
