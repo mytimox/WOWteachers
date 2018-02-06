@@ -1,0 +1,58 @@
+
+@media screen{
+    BODY {
+        font-family: 'Oswald', sans-serif;
+        
+        }
+        H1,H2,{
+            color: #101311;
+        }
+        span{
+            background-color: #c8d1cb
+        }
+}
+.column {
+    float: right;
+    width: 45%;
+    padding: 30px;
+
+}
+
+.column-img{
+    width: 45%;
+    float: left;
+    padding: 30px;
+}
+.column-img-wrapper{
+    text-align: center;
+}
+.product-name{
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.round {
+    border-radius: 100px; 
+    border: 3px solid rgb(109, 109, 109); 
+    box-shadow: 0 0 7px rgb(194, 194, 194); 
+   }
+
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+@media print {    
+    BODY {
+        font-family: 'Oswald', sans-serif;
+        
+        }
+        H1,H2,P{
+            color: #101311;
+        }
+    }
+}
