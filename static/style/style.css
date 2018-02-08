@@ -62,7 +62,8 @@
     width: 61px;
 }
 .dropdown-content a:hover, .dropdown-btn:hover{
-    background-color: #4b8dc4
+    background-color: #61abe7;
+    color: #093e69
 }
 .dropdown:hover .dropdown-content{
     display: block;
