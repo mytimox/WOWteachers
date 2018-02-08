@@ -8,16 +8,17 @@
         H1,H2,{
             color: #101311;
         }
-        span{
-            background-color: #c8d1cb
+        span, em{
+            font-weight: bold;
         }
+        p{
+            text-align: justify;
+        }
+        
 }
 .main-menu{
     overflow: hidden;
-    background-color: #3a73a8;
-    font-family: 'Oswald', sans-serif;
-    
-       
+    background-color: #3a73a8;  
 }
 .main-menu a{
     float: left;
@@ -25,25 +26,24 @@
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
-    font-family: 'Oswald', sans-serif;
     color: white;
-    
 }
 .dropdown-btn{
     background-color: #3a73a8;
-    color: white;
-    border: none;
+    font-family: 'Oswald', sans-serif; 
+
 }
+
 .dropdown{
     float:right;
     overflow: hidden;
 }
+
 .dropdown .dropdown-btn{
     border: none;
     outline: none;
     color: white;
     padding: 12px 14px;
-    font-family: 'Oswald', sans-serif;
 }
 .dropdown-content{
     display: none;
@@ -59,11 +59,10 @@
     text-decoration: none;
     display: block;
     text-align: left;
-    width: 65px;
-    
+    width: 61px;
 }
-.dropdown-content a:hover{
-    background-color: rgb(120, 186, 240);
+.dropdown-content a:hover, .dropdown-btn:hover{
+    background-color: #4b8dc4
 }
 .dropdown:hover .dropdown-content{
     display: block;
@@ -73,25 +72,35 @@
     display: table;
     clear: both;
 }
-
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
 
 .column {
     float: right;
-    width: 45%;
-    padding: 30px;
-
+    width: 50%;
 }
 
 .column-img{
-    width: 45%;
-    float: left;
-    padding: 30px;
+    width: 50%;
+    float: left;    
 }
 .column-img-wrapper{
     text-align: center;
+    width: 100%;
 }
+
+.column-img-wrapper img {
+    width: 50%;
+}
+
 .product-name{
     text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .row:after {
@@ -104,19 +113,15 @@
     border: 3px solid rgb(109, 109, 109); 
     box-shadow: 0 0 7px rgb(194, 194, 194); 
    }
-
-
 @media (max-width: 600px) {
     .column {
         width: 100%;
     }
-@media print {    
-    BODY {
-        font-family: 'Oswald', sans-serif;
-        
-        }
-        H1,H2,P{
-            color: #101311;
-        }
+}
+@media screen and (max-width: 1080px){
+    .column-img,
+    .column {
+        float: none;
+        width: 100%;
     }
 }
