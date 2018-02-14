@@ -169,13 +169,16 @@ left: 100%;
     padding-bottom: 20px;
 }
 .product-name a{
-    font-size: 1rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
 }
 .product-name img{
     width: 100%;
 }
 .product-name span{
     font-size: 1rem;
+    color: #424446;
 }
 .product-name button {
     margin: 10px 0;
