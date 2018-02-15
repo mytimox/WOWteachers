@@ -150,7 +150,7 @@ left: 100%;
     position: absolute;
     padding: 5px;
     border: 2px solid white;
-    margin-left: 100px;
+    float: right;
     font-size: 1rem;
     transform: rotate(45deg);
 }
