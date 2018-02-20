@@ -17,6 +17,27 @@
         
 }
 /*Main Manu block*/
+header{
+    padding-right: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 196px;
+}
+
+header a{
+    margin-left:100px;
+}
+header span{
+    text-align: center;
+    position: absolute;
+    padding-left: 700px;
+    color: white;
+    font-size: 3.5rem;
+    max-height: 196px;
+}
+.logo{
+    position: absolute
+}
 .main-menu{
     overflow: hidden;
     background-color: #3a73a8;  
@@ -64,7 +85,8 @@
 }
 .dropdown-content a:hover, .dropdown-btn:hover{
     background-color: #61abe7;
-    color: #093e69
+    color: #093e69;
+    transition: 0.4s linear;
 }
 .dropdown:hover .dropdown-content{
     display: block;
@@ -98,7 +120,7 @@
 }
 .product-category li:hover{
     background: #376A97;
-    transition: 1s linear;
+    transition: 0.4s linear;
 }
 
 .dropdown-title-cat{
@@ -136,13 +158,13 @@ left: 100%;
     overflow: hidden;
     float: right;
     max-width: 300px;    
-    padding: 5px;
-      
+    padding: 5px;     
 }
 
 .product:hover{
     border: 5px solid #61abe7;
     border-radius: 10px;
+    transition: 0.2s linear;
 }
 .sale{
     background: red;
@@ -151,7 +173,6 @@ left: 100%;
     position: absolute;
     padding: 5px;
     border: 2px solid white;
-    float: right;
     font-size: 1rem;
     transform: rotate(45deg);
 }
