@@ -98,6 +98,7 @@
 }
 .product-category li:hover{
     background: #376A97;
+    transition: 1s linear;
 }
 
 .dropdown-title-cat{
