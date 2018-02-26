@@ -40,16 +40,20 @@ header span{
 
 .main-menu{
     overflow: hidden;
-    background-color: #3a73a8;  
+    background-color: #3a73a8; 
+    display: flex; 
+    justify-content: flex-end;
 }
 .main-menu a{
-    float: left;
+    /* float: left; */
     text-decoration: none;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
     color: white;
+    margin-right: auto;
 }
+
 .dropdown-btn{
     background-color: #3a73a8;
     font-family: 'Oswald', sans-serif; 
